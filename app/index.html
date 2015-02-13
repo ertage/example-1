@@ -11,7 +11,7 @@
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
-
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
@@ -26,41 +26,92 @@
       <header class="header">
         <div class="header__content">
           <a href="" class="logo"></a>
-        <ul class="header__menu">
-          <li><a href="/" class="header__menu-item">News</a></li>
-          <li><a href="/" class="header__menu-item">Members</a></li>
-          <li><a href="/" class="header__menu-item">Events</a></li>
-          <li><a href="/" class="header__menu-item">Trainings</a></li>
-        </ul>
+          <button class="header__icon-close"></button>
+          <ul class="header__menu">
+            <li><a href="/" class="header__menu-item">News</a></li>
+            <li><a href="/" class="header__menu-item">Members</a></li>
+            <li><a href="/" class="header__menu-item">Events</a></li>
+            <li><a href="/" class="header__menu-item">Trainings</a></li>
+          </ul>
         </div>
       </header>
-      <div class="slider">
+      <div class="slider-wrap">
+        <div class="slider">
+          <div class="slider__img">
+          <img src="images/banner_desktop_hd.png"  alt="">
+            <div class="slider__content">
+              <div class="slider__content-title">Javaday Kiev conference</div>
+              <div class="slider__dicription">
+                JavaDay Kiev is an annual conference focused on new features of the Java language and Java-related technologies.
+              </div>
+              <div class="slider__content-footer">
+                <div class="slider__icon-calendar slider__content-footer-item"></div>
+                <div class="slider__content-date slider__content-footer-item">January 15th - January 17th
+                </div>
+                <a href="" class="slider__content-btn slider__content-footer-item">Join now</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider__img">
+            <img src="images/banner2_desktop_hd.jpg" alt="">
+            <div class="slider__content">
+              <div class="slider__content-title">Javaday Kiev conference</div>
+              <div class="slider__dicription">
+                JavaDay Kiev is an annual conference focused on new features of the Java language and Java-related technologies.
+              </div>
+            </div>
+          </div>
+          <div class="slider__img">
+            <img src="images/banner3_desktop_hd.jpg"  alt="">
 
+            <div class="slider__content">
+              <div class="slider__content-title">Javaday Kiev conference</div>
+              <div class="slider__dicription">
+                JavaDay Kiev is an annual conference focused on new features of the Java language and Java-related technologies.
+              </div>
+              <div class="slider__content-footer">
+                <div class="slider__icon-calendar slider__content-footer-item"></div>
+                <div class="slider__content-date slider__content-footer-item">January 15th - January 17th
+                </div>
+                <a href="" class="slider__content-btn slider__content-footer-item">Join now</a>
+              </div>
+            </div>
+          </div>
+          <a href="" class="slider__btn-prev"></a>
+          <a href="" class="slider__btn-next"></a>
+          <div class="slider__controls">
+            <a href="" class="slider__controls-item controls-item_type_active"></a>
+            <a href="" class="slider__controls-item"></a>
+            <a href="" class="slider__controls-item"></a>
+          </div>
+        </div>
       </div>
       <div class="wrapper">
         <div class="content">
           <section class="content__block block_type_list">
             <div class="content__block-item item_type_news">
               <h2 class="content__header">Competency News</h2>
-              <div class="content__news">
-                <div class="content__date">12.01.2012</div>
-                <a href="/" class="content__link">Integer posuero erat a ante venenatis dapibus posuere velit eliquet</a>
-                <div class="content__news-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci sed perferendis cum necessitatibus atque, autem repellendus iure quibusdam dolorum minus, similique ea veritatis
+              <div class="content__dynamic-news">
+                <div class="content__news">
+                  <div class="content__date">12.01.2012</div>
+                  <a href="/" class="content__link">Integer posuero erat a ante venenatis dapibus posuere velit eliquet</a>
+                  <div class="content__news-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci sed perferendis cum necessitatibus atque, autem repellendus iure quibusdam dolorum minus, similique ea veritatis
+                  </div>
                 </div>
-              </div>
-              <div class="content__news">
-                <div class="content__date">12.01.2012</div>
-                <a href="/" class="content__link">Integer posuero eliquet</a>
-                <div class="content__news-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci sed perferendis cum necessitatibus atque, autem repellendus iure quibusdam dolorum minus, similique ea veritatis
+                <div class="content__news">
+                  <div class="content__date">12.01.2012</div>
+                  <a href="/" class="content__link">Integer posuero eliquet</a>
+                  <div class="content__news-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci sed perferendis cum necessitatibus atque, autem repellendus iure quibusdam dolorum minus, similique ea veritatis
+                  </div>
                 </div>
-              </div>
-              <div class="content__news">
-                <div class="content__date">12.01.2012</div>
-                <a href="/" class="content__link">Integer posuero erat eliquet</a>
-                <div class="content__news-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci sed perferendis cum necessitatibus atque, autem repellendus iure quibusdam dolorum minus
+                <div class="content__news">
+                  <div class="content__date">12.01.2012</div>
+                  <a href="/" class="content__link">Integer posuero erat eliquet</a>
+                  <div class="content__news-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci sed perferendis cum necessitatibus atque, autem repellendus iure quibusdam dolorum minus
+                  </div>
                 </div>
               </div>
             </div>
@@ -245,8 +296,9 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
 </body>
 </html>
