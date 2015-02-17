@@ -18,7 +18,10 @@
 
     var timer;
 
+    initMenu();
+
     slides.hide().first().show();
+
 
     btnNext.click(function() {
       nextSlide();
@@ -88,6 +91,18 @@
   }
 
   setInterval(updateNews, 10000);
+
+  function initMenu() {
+    var menu = $('.header__content');
+
+    $('.header__icon-burger').click(function(){
+      menu.addClass('content_type_open');
+    })
+    $('.header__icon-close').click(function(){
+      menu.removeClass('content_type_open');
+    })
+  }
+
 
 
 })();
