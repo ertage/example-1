@@ -89,6 +89,15 @@
 
   setInterval(updateNews, 10000);
 
+  $('.slider-wrap').hover(
+    function(){
+      $('.header__menu').fadeOut(100);
+    },
+    function(){
+      $('.header__menu').fadeIn(50);
+    }
+  )
+
 })();
 
 
